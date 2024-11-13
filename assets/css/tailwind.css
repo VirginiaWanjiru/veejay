@@ -1,0 +1,8 @@
+.text-neonGreen {
+    color: #00FF66;
+    text-shadow: 0 0 10px #00FF66, 0 0 20px #00FF66;
+  }
+  .bg-darkBg {
+    background-color: #000000;
+  }
+  

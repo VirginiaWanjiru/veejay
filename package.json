@@ -1,0 +1,28 @@
+{
+  "name": "veejay",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "swiper": "^6.0.0",
+    "vue": "^2.7.10",
+    "vue-scrollto": "^2.20.0",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "postcss": "^8.4.17"
+  }
+}
