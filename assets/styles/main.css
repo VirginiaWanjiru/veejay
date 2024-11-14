@@ -1,0 +1,190 @@
+/* Tailwind Base Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* Set global background and text color */
+html, body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif; /* Google's 'Inter' font, clean and modern */
+  line-height: 1.6;
+}
+
+/* Animation Target Class */
+.animate-target {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .animate-target:hover {
+    transform: scale(1.1);
+  }
+  
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* General Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+header a {
+  font-size: 1rem;
+  color: #fff;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #1db954; /* Spotify Green */
+}
+
+/* Hero Section */
+section {
+  padding: 80px 30px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Professional Experience Section */
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gray-900 {
+  background-color: #121212;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+section .p-6 {
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+section h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+section p.text-green-500 {
+  color: #1db954; /* Spotify Green */
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button and Links */
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #1db954;
+}
+
+/* Custom Breakpoints for Responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  section p {
+    font-size: 0.9rem;
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
