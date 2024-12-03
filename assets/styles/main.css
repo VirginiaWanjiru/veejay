@@ -16,7 +16,7 @@ html, body {
 /* Animation Target Class */
 .animate-target {
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
   }
   
   .animate-target:hover {
@@ -30,12 +30,12 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(72, 158, 25);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 34, 0, 0.993);
 }
 
 /* General Layout */
@@ -64,7 +64,7 @@ header a {
   color: #fff;
   padding: 6px 16px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   transition: color 0.3s ease;
 }
 
