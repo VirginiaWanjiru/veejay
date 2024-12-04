@@ -19,7 +19,7 @@ export default {
 /* Define global styles here */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #622460;
+  color: #ffffff;
 }
 </style>
